@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		03FC8AC4284EA0B00051AB1C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 03FC8AC3284EA0B00051AB1C /* main.cpp */; };
+		03FC8ACC284EA0E70051AB1C /* TheGame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 03FC8ACA284EA0E70051AB1C /* TheGame.cpp */; };
+		03FC8ACF284EA4DA0051AB1C /* TheGameLevels.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 03FC8ACD284EA4DA0051AB1C /* TheGameLevels.cpp */; };
+		03FC8AD2284EAE010051AB1C /* HelperFunctions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 03FC8AD0284EAE010051AB1C /* HelperFunctions.cpp */; };
+		03FC8AD5284EB2E80051AB1C /* ThePlayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 03FC8AD3284EB2E80051AB1C /* ThePlayer.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,14 @@
 /* Begin PBXFileReference section */
 		03FC8AC0284EA0B00051AB1C /* Dungeon_Escape */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Dungeon_Escape; sourceTree = BUILT_PRODUCTS_DIR; };
 		03FC8AC3284EA0B00051AB1C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		03FC8ACA284EA0E70051AB1C /* TheGame.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TheGame.cpp; sourceTree = "<group>"; };
+		03FC8ACB284EA0E70051AB1C /* TheGame.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TheGame.hpp; sourceTree = "<group>"; };
+		03FC8ACD284EA4DA0051AB1C /* TheGameLevels.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TheGameLevels.cpp; sourceTree = "<group>"; };
+		03FC8ACE284EA4DA0051AB1C /* TheGameLevels.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TheGameLevels.hpp; sourceTree = "<group>"; };
+		03FC8AD0284EAE010051AB1C /* HelperFunctions.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HelperFunctions.cpp; sourceTree = "<group>"; };
+		03FC8AD1284EAE010051AB1C /* HelperFunctions.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = HelperFunctions.hpp; sourceTree = "<group>"; };
+		03FC8AD3284EB2E80051AB1C /* ThePlayer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ThePlayer.cpp; sourceTree = "<group>"; };
+		03FC8AD4284EB2E80051AB1C /* ThePlayer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ThePlayer.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,14 @@
 			isa = PBXGroup;
 			children = (
 				03FC8AC3284EA0B00051AB1C /* main.cpp */,
+				03FC8ACA284EA0E70051AB1C /* TheGame.cpp */,
+				03FC8ACD284EA4DA0051AB1C /* TheGameLevels.cpp */,
+				03FC8AD0284EAE010051AB1C /* HelperFunctions.cpp */,
+				03FC8AD1284EAE010051AB1C /* HelperFunctions.hpp */,
+				03FC8ACE284EA4DA0051AB1C /* TheGameLevels.hpp */,
+				03FC8ACB284EA0E70051AB1C /* TheGame.hpp */,
+				03FC8AD3284EB2E80051AB1C /* ThePlayer.cpp */,
+				03FC8AD4284EB2E80051AB1C /* ThePlayer.hpp */,
 			);
 			path = Dungeon_Escape;
 			sourceTree = "<group>";
@@ -120,6 +140,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				03FC8AC4284EA0B00051AB1C /* main.cpp in Sources */,
+				03FC8AD5284EB2E80051AB1C /* ThePlayer.cpp in Sources */,
+				03FC8AD2284EAE010051AB1C /* HelperFunctions.cpp in Sources */,
+				03FC8ACF284EA4DA0051AB1C /* TheGameLevels.cpp in Sources */,
+				03FC8ACC284EA0E70051AB1C /* TheGame.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
