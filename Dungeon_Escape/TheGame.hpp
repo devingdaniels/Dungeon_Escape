@@ -13,8 +13,7 @@
 
 #include "ThePlayer.hpp" // The player object
 
-
-#include "HelperFunctions.hpp"
+#include "HelperFunctions.hpp" // getting a name, displaying game instructions, etc.
 
 
 struct GameElements{
@@ -24,6 +23,7 @@ public:
     static const int NUM_ENEMIES = 4;
     static const int NUM_GOLD = 6;
     static const int NUM_FIRE = 4;
+    static const int NUM_KEY = 1;
     
     // game board elements
     const string MONSTER = "👾";  // monster in the array
@@ -55,7 +55,6 @@ private:
     // struct containing array elements for the dungeon
     GameElements gameElements;
     
-    
 public:
     static const int GAME_SIZE = 3;
     const int STARTING_LEVEL = 1;
@@ -71,22 +70,13 @@ public:
     
     // methods
     void createGame(); // creates nodes in linked-list, fills the nodes, and creates a player
-    void fillLevels();
-    void addGold(Node *currentLVL);
-    void addMonster(string monster,  Node *currentLVL);
-    void addFire(Node *currentLVL);
-    void spawnKey(Node *currentLVL);
-    string displayCurrentLevel();
-    void getMove();
-    bool checkEnemy();
-    bool checkWin();
-    
-    void movePlayer();
-    
-    
-    
-    
-    void displayAllLevels();
-    
+    void fillLevels(); // fill each array with different elements
+    void spawnElement(Node *curLvl, string element, int count); // method to fill with proper element
+    string displayCurrentLevel(); // display current level that player is on
+    void getMove(); // gets and updates player location
+    bool checkEnemy(); // checks for loss
+    bool checkWin(); // checks for win
+    void movePlayer(); // if no win or loss, will move the player character in the array
+    void displayAllLevels(); // display the linked-list, for debugging
 };
 #endif /* TheGame_hpp */

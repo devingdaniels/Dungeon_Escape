@@ -8,7 +8,6 @@
 #include <iostream>
 using std::cout, std::endl;
 
-
 #include "TheGame.hpp" // Game class
 
 int main() {

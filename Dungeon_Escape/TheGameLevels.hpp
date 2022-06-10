@@ -28,9 +28,6 @@ private:
     // the number of the level
     int levelNumber;
     
-    // constant variables for array size
- 
-    
 public:
     // string array for game elements
     string arr[ROW_Y_SIZE][COL_X_SIZE];

@@ -21,10 +21,6 @@ const char MOVE_DOWN= 's';
 const char MOVE_UP = 'w';
 
 
-
-
-
-
 // display game instructions
 void displayInsructions();
 // get character name
@@ -36,13 +32,5 @@ char getUserMove();
 // method used in fillLevels
 // ask and validate player choice to replay
 bool playAgain();
-
-
-
-
-
-
-
-
 
 #endif /* HelperFunctions_hpp */
